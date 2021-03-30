@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Фаст-фуд | портфолио pointlesslybold</title>
+        <meta name="description" content="Ваш любимый фаст-фуд - чизбургеры, пицца, картошка фри и многое другое. Определите Ваш заказ с помощью нашего удобного онлайн-меню и оставьте нам Ваш номер - мы перезвоним!">
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+        <link rel="apple-touch-icon" href="favicon.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <a href="tel:304-X30" class="float-call"></a>
+        <header>
+            <div class="head-logo">Бургер Царь</div>
+            <a href="tel:304-X30" class="head-call">Доставка: 304-X30</a>
+        </header>
+        <section class="top-most">
+            <h1>Проголодались?</h1>
+            <p>Бургер Царь предлагает незабываемый вкус и обширное меню - попробуйте сегодня и полюбите навсегда.</p>
+            <div class="button-container">
+                <button id="find-location">Найти ресторан</button>
+                <button id="goto-menu">Наше меню</button>
+            </div>
+        </section>
+        <section id="menu">
+            <h1>МЕНЮ</h1>
+
+            <div class="menu-container">
+                <div class="menu-item">
+                    <img src="./images/food/cheeseburger.jpg" alt="Чизбургер" title="Чизбургер" />
+                    <h2>Чизбургер Царский</h2>
+                    <p class="description">На вкус еще лучше, чем на вид. Сочная говяжья котлета, свежие овощи и золотистая булочка дополняются мягким сыром.</p>
+                    <p class="sub-info">Калории: 300 кал.</p>
+                    <p class="price">300 ₽</p>
+                </div>
+                
+                <div class="menu-item">
+                    <img src="./images/food/chickenwings.jpg" alt="Крылышки" title="Крылышки" />
+                    <h2>Крылышки золотые</h2>
+                    <p class="description">12 жаренных крылышек в хрустящей панировке, идеальные для полноценного перекуса.</p>
+                    <p class="sub-info">Калории: 1106 кал.</p>
+                    <p class="price">1 000 ₽</p>
+                </div>
+                
+                <div class="menu-item">
+                    <img src="./images/food/drumstick.jpg" alt="Голени" title="Голени" />
+                    <h2>Куриные голени</h2>
+                    <p class="description">6 идеально поджаренных во фритюре голеней. Сочное мясо и великолепные специи.</p>
+                    <p class="sub-info">Калории: 835 кал.</p>
+                    <p class="price">800 ₽</p>
+                </div>
+                
+                <div class="menu-item">
+                    <img src="./images/food/fries.jpg" alt="Картошка фри" title="Картошка фри" />
+                    <h2>Картошка фри пикантная</h2>
+                    <p class="description">Большая порция золотистой картошки фри (300 г). Идеальное дополнение к гамбургерам и курице.</p>
+                    <p class="sub-info">Калории: 312 кал.</p>
+                    <p class="price">200 ₽</p>
+                </div>
+                
+                <div class="menu-item">
+                    <img src="./images/food/hamburger.jpg" alt="Гамбургер" title="Гамбургер" />
+                    <h2>Гамбургер Великан</h2>
+                    <p class="description">В два раза больше мяса для настоящих ценителей гамбургеров! Почувствуйте невероятный взрыв вкуса.</p>
+                    <p class="sub-info">Калории: 540 кал.</p>
+                    <p class="price">450 ₽</p>
+                </div>
+                
+                <div class="menu-item">
+                    <img src="./images/food/hotdog.jpg" alt="Хот дог" title="Хот дог" />
+                    <h2>Хот дог острый</h2>
+                    <p class="description">Обжаренная сосиска в нежной булочке со свежей зеленью. Лучше на вкус вместе с горчицей и кетчупом.</p>
+                    <p class="sub-info">Калории: 350 кал.</p>
+                    <p class="price">280 ₽</p>
+                </div>
+                
+                <div class="menu-item">
+                    <img src="./images/food/pizza.jpg" alt="Пицца" title="Пицца" />
+                    <h2>Пицца Моцарелла</h2>
+                    <p class="description">Самая любимая пицца Европы, с ярким и насыщенным вкусом трех сортов сыра, перчиков халапенью и томатов.</p>
+                    <p class="sub-info">Калории: 800 кал.</p>
+                    <p class="price">600 ₽</p>
+                </div>
+                
+                <div class="menu-item">
+                    <img src="./images/food/saltrod.jpg" alt="Соломка" title="Соломка" />
+                    <h2>Соломка соленая</h2>
+                    <p class="description">Хрустяший снек, обсыпанный солью, идеальный для вечеринок или просмотра кино с друзьями.</p>
+                    <p class="sub-info">Калории: 250 кал.</p>
+                    <p class="price">170 ₽</p>
+                </div>
+            </div>
+
+            <div class="end-link-container">
+                <a href="#" class="transport-link">Еще больше блюд в полном меню</a>
+            </div>
+        </section>
+
+        <section id="where-to-find-us">
+            <h1>Как нас найти</h1>
+            <div class="address-container">
+                <ul class="address">
+                    <li><b>Петровско-Разумовский пр-д, 2</b>, Москва, 127220</li>
+                    <li><b>ул. Мишина, 26</b>, Москва, 127083</li>
+                    <li><b>ул. Юннатов, 18</b>, Москва, 127083</li>
+                </ul>
+                <div id="google-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2242.3677415249235!2d37.556073669046384!3d55.80421589615107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b549e7f8935477%3A0xd7a92101011f7815!2sStolovaya!5e0!3m2!1sen!2skz!4v1617017047415!5m2!1sen!2skz" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="promos">
+            <h1>Акции</h1>
+            <div class="slides-container">
+                <div class="slide" id="slide-people">
+                    <h2>Приведи друзей!</h2>
+                    <p>Группы от 5 человек при заказе в ресторане получат приятный бонус - по 1 порции соленой соломки на персону.</p>
+                </div>
+                <div class="slide" id="slide-health">
+                    <h2>Здоровый образ жизни</h2>
+                    <p>Закажите любое из блюд из нашего здорового меню - например, вегетарианский гамбургер, и получите овощной сок бесплатно.</p>
+                </div>
+                <div class="slide" id="slide-charity">
+                    <h2>Помогаем помогать</h2>
+                    <p>До 2% от суммы каждого заказа идет на пожертвования благотворительности, помогающей больным детям нашей страны.</p>
+                </div>
+                <div class="dots">
+                </div>
+            </div>
+
+            <div class="end-link-container">
+                <a href="#" class="transport-link">Узнайте больше о наших акциях</a>
+            </div>
+
+        </section>
+
+        <footer>
+            <h1>Мы социальных сетях</h1>
+            <div class="social-media-block">
+                <a href="#"><img src="./images/icons/facebook.svg"></a>
+                <a href="#"><img src="./images/icons/twitter.svg"></a>
+                <a href="#"><img src="./images/icons/instagram.svg"></a>
+                <a href="#"><img src="./images/icons/youtube.svg"></a>
+            </div>
+            <h1>Полезные ссылки</h1>
+            <div class="bottom-links">
+                <a href="#">Оплата и Доставка</a>
+                <a href="#">Акции</a>
+                <a href="#">О нас</a>
+                <a href="#">Карьера</a>
+                <a href="#">Пищевая ценность</a>
+                <a href="#">Корпоративный сайт</a>
+                <a href="#">Франшиза</a>
+                <a href="#">Конфиденциальность</a>
+                <a href="#">Карта сайта</a>
+            </div>
+            <div id="copyright">работа <a href="https://pointlesslybold.github.io/">pointlesslybold.github.io</a></div>
+        </footer>
+
+    </body>
+</html>
